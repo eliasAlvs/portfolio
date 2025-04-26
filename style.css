@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+body > div#geral{
+    width: 100%; 
+    background: linear-gradient(135deg, #0c1322, #293d5d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body > div#geral > section.secGerais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+PRIMEIRA SECTION -------------------------------------------------------
+APRESENTAÇÃO TEXTO -----------------------------------------------------
+*/
+body > div#geral > section#secGeral1{
+    height: 90vh;
+    box-shadow: inset 0 0px 1000px rgb(0, 0, 0, 0.5);
+} 
+body > div#geral > section#secGeral1 > div#apresentacaoTexto{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#texto{
+    width: 85%;
+    height: 30%;
+    padding: 20px;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#texto > div#nome > h1#nomeTitle{
+    color: #E5E7EB;
+    font-size: 100px;
+    text-indent: -6px;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#texto > div#cargo > h2#cargoTitle{
+    color: #9CA3AF;
+    font-size: 40px;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox{
+    width: 85%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecTitleBox{
+    color: #E5E7EB;
+    font-size: 40px;
+    width: 100%;
+    height: 25%;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    height: 60%;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias{
+    width: 140px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 1.5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 140px #778899;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias:hover{
+    box-shadow: 0 5px 120px #778899;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias > img{
+    width: 30%;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecHTML{
+    background-color: #FF6B6B;
+    border-right: 4px solid #9f3434;
+    border-bottom: 4px solid #9f3434;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecCSS{
+    background-color: #9B59B6;
+    border-right: 4px solid #6f1f8e;
+    border-bottom: 4px solid #6f1f8e;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecJS{
+    background-color: #d8b62c;
+    border-right: 4px solid #a5860b;
+    border-bottom: 4px solid #a5860b;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecPHP{
+    background-color: #8E44AD;
+    border-right: 4px solid #7b0aab;
+    border-bottom: 4px solid #7b0aab;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecSQL
+{background-color: #5DADE2;
+    border-right: 4px solid #2082c4;
+    border-bottom: 4px solid #2082c4;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecREACT{
+    background-color: #148aaa;
+    border-right: 4px solid #04586f;
+    border-bottom: 4px solid #04586f;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecNODE{
+    background-color: #0cda62;
+    border-right: 4px solid #079a44;
+    border-bottom: 4px solid #079a44;
+}
+/*
+PRIMEIRA SECTION -----------------------------------------------------
+APRESENTAÇÃO FOTO ----------------------------------------------------
+*/
+body > div#geral > section#secGeral1 > div#apresentacaoFoto{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoFoto > img#fotoApresentacao{
+    width: 73%;
+}
+
+/*
+SEGUNDA SECTION -------------------------------------------------------
+*/
+body > div#geral > section#secGeral2{
+    height: 85vh;
+    background-color: #E5E7EB;
+    box-shadow: inset 0 0px 1000px rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+body > div#geral > section#secGeral2 > div#projectTitle{
+    font-size: 33px;
+}
+body > div#geral > section#secGeral2 > div#projectAccessBoxes{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+body > div#geral > section#secGeral2 > div#projectAccessBoxes > div.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(135deg, #0c1322, #293d5d);
+    border-radius: 10px;
+    padding: 50px 80px;
+    text-align: justify;
+    font-size: 26px;
+    color: #E5E7EB;
+    width: 30%;
+    box-shadow: 0 5px 60px #778899;
+    transition: .3s;
+}
+body > div#geral > section#secGeral2 > div#projectAccessBoxes > div.projects:hover{
+    box-shadow: 0 5px 120px #778899;
+    width: 31%;
+}
+body > div#geral > section#secGeral2 > div#projectAccessBoxes > div.projects > p{
+    font-size: 26px;
+}
+body > div#geral > section#secGeral2 > div#projectAccessBoxes > div.projects > button.projectBtn{
+    border: none;
+    width: 50%;
+    height: 15%;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #6a0dad, #1e90ff);
+    color: #E5E7EB;
+}
+
+/*
+TERCEIRA SECTION -------------------------------------------------------
+*/
+body > div#geral > section#secGeral3{
+    height: 40vh;
+    background: linear-gradient(135deg, #0c1322, #293d5d);
+    box-shadow: inset 0 0px 1000px rgb(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+body > div#geral > section#secGeral3 > div.cont{
+    width: 45%;
+    height: 90%;
+    color: #E5E7EB;
+}
+body > div#geral > section#secGeral3 > div#contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+body > div#geral > section#secGeral3 > div#contatos > div#contatoTitle{
+    font-size: 35px;
+}
+body > div#geral > section#secGeral3 > div#contatos > div#outrosContatos{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+body > div#geral > section#secGeral3 > div#contatos > div#outrosContatos > div.oCChildren{
+    font-size: 25px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+body > div#geral > section#secGeral3 > div#contatos > div#outrosContatos > div.oCChildren > i{
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+body > div#geral > section#secGeral3 > div#redesSociais{
+    border-left: 1px solid #e5e7eb81;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body > div#geral > section#secGeral3 > div#redesSociais > div.redes{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body > div#geral > section#secGeral3 > div#redesSociais > div.redes > i{
+    font-size: 130px;
+}
+body > div#geral > section#secGeral3 > div#redesSociais > div.redes > button{
+    width: 50%;
+    height: 15%;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #6a0dad, #1e90ff);
+    color: #E5E7EB;    
+}
+body > div#geral > section#secGeral3 > div#redesSociais > div.redes > button:hover{
+    box-shadow: 0 0 120px  #778899;
+}
