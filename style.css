@@ -68,61 +68,34 @@ body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#
     width: 100%;
     padding: 10px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-columns: 33% 33% 33%; 
     height: 60%;
 }
 body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias{
-    width: 140px;
+    width: 70%;
     height: 60px;
     font-size: 25px;
     font-weight: bold;
-    padding: 5px;
-    border-radius: 1.5px;
+    padding: 20px;
+    border-radius: 3px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 0 5px 140px #778899;
+    box-shadow: 0 5px 200px #778899;
+    background: linear-gradient(135deg, #6a0dad, #1e90ff);
+    color: #E5E7EB;
+    font-size: 28px;
+    border-right: 4px solid #2e064b;
+    border-bottom: 4px solid #2e064b;
+}
+body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias > i{
+    vertical-align: middle;
 }
 body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias:hover{
     box-shadow: 0 5px 120px #778899;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div.tecnologias > img{
-    width: 30%;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecHTML{
-    background-color: #FF6B6B;
-    border-right: 4px solid #9f3434;
-    border-bottom: 4px solid #9f3434;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecCSS{
-    background-color: #9B59B6;
-    border-right: 4px solid #6f1f8e;
-    border-bottom: 4px solid #6f1f8e;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecJS{
-    background-color: #d8b62c;
-    border-right: 4px solid #a5860b;
-    border-bottom: 4px solid #a5860b;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecPHP{
-    background-color: #8E44AD;
-    border-right: 4px solid #7b0aab;
-    border-bottom: 4px solid #7b0aab;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecSQL
-{background-color: #5DADE2;
-    border-right: 4px solid #2082c4;
-    border-bottom: 4px solid #2082c4;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecREACT{
-    background-color: #148aaa;
-    border-right: 4px solid #04586f;
-    border-bottom: 4px solid #04586f;
-}
-body > div#geral > section#secGeral1 > div#apresentacaoTexto > div#tecBox > div#tecList > div#tecNODE{
-    background-color: #0cda62;
-    border-right: 4px solid #079a44;
-    border-bottom: 4px solid #079a44;
+    border-right: 4px solid #580892;
+    border-bottom: 4px solid #580892;
+    transition: .3s;
 }
 /*
 PRIMEIRA SECTION -----------------------------------------------------
